@@ -1,0 +1,32 @@
+// viewports
+$mobile-width-only: 767px;
+$tablet-width: 768px;
+$desktop-width: 1200px;
+
+// retina
+$retina-dpi: 144dpi;
+$retina-dppx: 1.5dppx;
+
+// fonts
+$font-light: hsl(30, 27%, 96%);
+$font-dark: hsl(0, 0%, 25%);
+
+// backgrounds
+$bg-dark: hsl(0, 0%, 16%);
+$bg-light: hsl(30, 30%, 96%);
+
+// links
+$link-color: hsl(225, 73%, 55%);
+$link-color-hover: darken($link-color, 10%);
+
+// buttons
+$btn-color: hsl(225, 73%, 55%);
+$btn-color-hover: hsl(0, 0%, 100%);
+$btn-bg-color-hover: $btn-color;
+$btn-border-color: lighten($btn-color, 20%);
+
+$btn-primary-color: hsl(0, 0%, 100%);
+$btn-primary-bg: hsl(225, 73%, 55%);
+$btn-primary-bg-hover: darken($btn-primary-bg, 7%);
+
+$btn-disabled: hsl(0, 0%, 80%);

@@ -1,0 +1,41 @@
+.btn {
+  display: inline-block;
+  padding: 16px;
+
+  font: inherit;
+  font-weight: bold;
+  text-align: center;
+  color: $btn-color;
+  text-transform: uppercase;
+  vertical-align: middle;
+
+  border: 1px solid $btn-border-color;
+
+  cursor: pointer;
+
+  &:hover,
+  &:focus,
+  &:active {
+    color: $btn-color-hover;
+
+    background-color: $btn-bg-color-hover;
+  }
+
+  &:disabled {
+    cursor: default;
+    opacity: 0.5;
+    background-color: $btn-disabled;
+  }
+}
+
+.btn__primary {
+  color: $btn-primary-color;
+
+  background-color: $btn-primary-bg;
+
+  &:hover,
+  &:focus,
+  &:active {
+    background-color: $btn-primary-bg-hover;
+  }
+}

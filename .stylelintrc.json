@@ -1,0 +1,52 @@
+{
+  "defaultSeverity": "warning",
+  "extends": "stylelint-config-standard",
+  "plugins": [
+    "stylelint-no-unsupported-browser-features"
+  ],
+  "rules": {
+    "plugin/no-unsupported-browser-features": [
+      true,
+      {
+        "severity": "warning",
+        "ignore": [
+          "flexbox",
+          "css-featurequeries",
+          "css-boxshadow",
+          "transforms2d",
+          "border-radius",
+          "css-fixed",
+          "background-img-opts",
+          "user-select-none",
+          "outline",
+          "viewport-units",
+          "css-media-resolution",
+          "object-fit",
+          "css-clip-path",
+          "css-masks"
+        ]
+      }
+    ],
+    "declaration-empty-line-before": null,
+    "block-no-empty": true,
+    "comment-no-empty": true,
+    "at-rule-empty-line-before": [
+      "always",
+      {
+        "ignore": [
+          "first-nested",
+          "blockless-after-same-name-blockless"
+        ]
+      }
+    ],
+    "at-rule-no-unknown": [
+      true,
+      {
+        "ignoreAtRules": [
+          "mixin",
+          "include"
+        ]
+      }
+    ]
+  }
+}
