@@ -8,23 +8,7 @@
     "plugin/no-unsupported-browser-features": [
       true,
       {
-        "severity": "warning",
-        "ignore": [
-          "flexbox",
-          "css-featurequeries",
-          "css-boxshadow",
-          "transforms2d",
-          "border-radius",
-          "css-fixed",
-          "background-img-opts",
-          "user-select-none",
-          "outline",
-          "viewport-units",
-          "css-media-resolution",
-          "object-fit",
-          "css-clip-path",
-          "css-masks"
-        ]
+        "severity": "warning"
       }
     ],
     "declaration-empty-line-before": null,
