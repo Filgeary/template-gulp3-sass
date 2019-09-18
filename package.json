@@ -44,8 +44,6 @@
     "last 5 version",
     "> 0.5%",
     "maintained node versions",
-    "not IE 11",
-    "not IE_mob 11",
     "not dead"
   ],
   "engines": {
