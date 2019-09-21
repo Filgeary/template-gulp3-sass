@@ -18,14 +18,14 @@
   "devDependencies": {
     "autoprefixer": "^9.6.1",
     "browser-sync": "^2.26.7",
-    "del": "^3.0.0",
+    "del": "^5.1.0",
     "gulp": "^3.9.1",
-    "gulp-changed": "^3.2.0",
+    "gulp-changed": "^4.0.1",
     "gulp-concat": "^2.6.1",
     "gulp-csso": "^3.0.1",
     "gulp-gh-pages": "^0.5.4",
     "gulp-htmlmin": "^5.0.1",
-    "gulp-imagemin": "^5.0.3",
+    "gulp-imagemin": "^6.1.0",
     "gulp-plumber": "^1.2.1",
     "gulp-postcss": "^8.0.0",
     "gulp-rename": "^1.4.0",
@@ -38,8 +38,8 @@
     "postcss-object-fit-images": "^1.1.2",
     "readable-stream": "^3.4.0",
     "run-sequence": "^2.2.1",
-    "stylelint": "~10.0.1",
-    "stylelint-config-standard": "~18.3.0",
+    "stylelint": "~11.0.0",
+    "stylelint-config-standard": "~19.0.0",
     "stylelint-no-unsupported-browser-features": "^3.0.2"
   },
   "browserslist": [
