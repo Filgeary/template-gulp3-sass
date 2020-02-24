@@ -1,3 +1,1 @@
-# website template with gulp & sass
-
-> Work in progress
+# template build with gulp3 & sass
